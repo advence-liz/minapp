@@ -1,0 +1,15 @@
+2019-03-29 14:46:17,664 INFO 37128 [egg:logger] init all loggers with options: {"dir":"/Users/qudian/MiniProjects/TodoNodeJS/server/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 14:46:17,745 INFO 37128 [egg-multipart] stream mode enable
+2019-03-29 14:46:17,746 INFO 37128 [egg-mysql] connecting admin@47.100.249.167:3306/sample
+2019-03-29 14:46:18,053 INFO 37128 [egg-static] starting static serve /public/ -> /Users/qudian/MiniProjects/TodoNodeJS/server/app/public
+2019-03-29 14:46:18,063 INFO 37128 [egg-security] use methodnoallow middleware
+2019-03-29 14:46:18,066 INFO 37128 [egg-security] use noopen middleware
+2019-03-29 14:46:18,067 INFO 37128 [egg-security] use nosniff middleware
+2019-03-29 14:46:18,068 INFO 37128 [egg-security] use xssProtection middleware
+2019-03-29 14:46:18,069 INFO 37128 [egg-security] use xframe middleware
+2019-03-29 14:46:18,070 INFO 37128 [egg-security] use dta middleware
+2019-03-29 14:46:18,070 INFO 37128 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 14:46:18,647 INFO 37128 [egg:core] dump config after load, 13ms
+2019-03-29 14:46:18,707 INFO 37128 [egg-watcher:application] watcher start success
+2019-03-29 14:46:20,809 INFO 37128 [egg-mysql] instance[0] status OK, rds currentTime: Fri Mar 29 2019 14:46:20 GMT+0800 (GMT+08:00)
+2019-03-29 14:46:20,818 INFO 37128 [egg:core] dump config after ready, 6ms

@@ -9,3 +9,34 @@
 2019-03-29 14:46:14,678 INFO 37127 [egg-watcher:agent] watcher start success
 2019-03-29 14:46:15,061 INFO 37127 [egg:core] dump config after ready, 232ms
 2019-03-29 14:46:18,066 INFO 37127 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/qudian/MiniProjects/TodoNodeJS/server/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":8612529488,"size":64,"blocks":0,"atimeMs":1553841978053.8462,"mtimeMs":1553841978053.8462,"ctimeMs":1553841978053.8462,"birthtimeMs":1553841978053.8462,"atime":"2019-03-29T06:46:18.054Z","mtime":"2019-03-29T06:46:18.054Z","ctime":"2019-03-29T06:46:18.054Z","birthtime":"2019-03-29T06:46:18.054Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-03-29 15:27:43,634 INFO 37127 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/qudian/MiniProjects/TodoNodeJS/server/app/public/24606d00-51f4-11e9-8570-dff782019ae4.png","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":8612535971,"size":10412,"blocks":24,"atimeMs":1553844463569.7039,"mtimeMs":1553844463572.2402,"ctimeMs":1553844463572.2402,"birthtimeMs":1553844463569.7039,"atime":"2019-03-29T07:27:43.570Z","mtime":"2019-03-29T07:27:43.572Z","ctime":"2019-03-29T07:27:43.572Z","birthtime":"2019-03-29T07:27:43.570Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-29 16:32:23,866 ERROR 37127 nodejs.ClusterClientNoResponseError: client no response in 163471ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qudian/MiniProjects/TodoNodeJS/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37127
+hostname: bogon
+
+2019-03-29 16:57:12,518 ERROR 37127 nodejs.ClusterClientNoResponseError: client no response in 730926ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qudian/MiniProjects/TodoNodeJS/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37127
+hostname: bogon
+
+2019-03-29 17:04:37,530 ERROR 37127 nodejs.ClusterClientNoResponseError: client no response in 425003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qudian/MiniProjects/TodoNodeJS/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37127
+hostname: bogon
+
